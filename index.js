@@ -20,7 +20,7 @@ function deepestChild(){
     if (element.children.length > 0){
       return getChildren(element.children[0])
     } else {
-      return element.childNodes[0]
+      return element
     }
   }
   console.log(getChildren(gNode));
