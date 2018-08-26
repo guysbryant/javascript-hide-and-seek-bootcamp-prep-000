@@ -23,6 +23,6 @@ function deepestChild(){
       return element.childNodes[0]
     }
   }
-  console.log(getChildren(gNode));
+  // console.log(getChildren(gNode));
   return getChildren(gNode);
 }
